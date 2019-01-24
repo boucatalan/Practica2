@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Practica2.MenuInicial"
+             NavigationPage.HasNavigationBar="True"
+             NavigationPage.HasBackButton="True"
+             Title="Menu inicial" Padding="30">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Selecciona una de las opciones:" VerticalOptions="StartAndExpand" HorizontalOptions="CenterAndExpand" FontSize="Medium" Margin="20"/>
+
+            <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
+                <Button Text="Ir a incidencias" Margin="25" FontSize="Medium"/>
+                <Button Text="Ir a tu perfil" Margin="25" FontSize="Medium"/>
+            </StackLayout>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
