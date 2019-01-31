@@ -16,5 +16,15 @@ namespace Practica2
         {
             InitializeComponent();
         }
+
+        public async void btnIncidencias_Clicked (object sender, EventArgs e)
+        {
+            await Navigation.PushModalAsync(new PaginaIncidenciasMaster());
+        }
+
+        public async void btnPerfil_Clicked(object sender, EventArgs e)
+        {
+           // await Navigation.PushModalAsync(  );
+        }
     }
 }

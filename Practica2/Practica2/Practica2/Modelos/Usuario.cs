@@ -12,8 +12,10 @@ namespace Practica2.Modelos
         private string cognom1 { get; set; }
         private string cognom2 { get; set; }
         private string DNI { get; set; }
+        private string passWord { get; set; }
         private int telefon { get; set; }
         private string eMail { get; set; }
+        private string rutaImagenPerfil { get; set; }
 
         public Usuario(int idUser, string nom, string cognom1, string cognom2, string DNI, int telefon, string eMail) 
         {
