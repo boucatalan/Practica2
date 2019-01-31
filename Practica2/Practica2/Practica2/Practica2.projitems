@@ -23,7 +23,7 @@
       <DependentUpon>MenuInicial.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="$(MSBuildThisFileDirectory)Modelos\Incidencias.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Modelos\Incidencia.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Modelos\Usuario.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)PaginaIncidenciasMaster.xaml.cs">
       <DependentUpon>PaginaIncidenciasMaster.xaml</DependentUpon>
