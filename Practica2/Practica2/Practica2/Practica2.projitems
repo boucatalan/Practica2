@@ -16,8 +16,24 @@
     <Compile Include="$(MSBuildThisFileDirectory)App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)InicioSesion.xaml.cs">
+      <DependentUpon>InicioSesion.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Modelos\Incidencias.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\ServiceIncidences.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\ServiceUsers.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)InicioSesion.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="$(MSBuildThisFileDirectory)Imagenes\logo_repair.jpg" />
   </ItemGroup>
 </Project>

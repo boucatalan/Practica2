@@ -11,7 +11,7 @@ namespace Practica2
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new InicioSesion();
         }
 
         protected override void OnStart()
