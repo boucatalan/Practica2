@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Practica2.Modelos
 {
-    class Incidencias
+    class Incidencia
     {
         private int idInstancia { get; set; }
         private int codiEquip { get; set; }

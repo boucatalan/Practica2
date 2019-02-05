@@ -23,12 +23,14 @@
       <DependentUpon>MenuInicial.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="$(MSBuildThisFileDirectory)Modelos\Incidencias.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Modelos\Incidencia.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Modelos\Usuario.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)PaginaIncidenciasMaster.xaml.cs">
       <DependentUpon>PaginaIncidenciasMaster.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Services\ServiceIncidences.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\ServiceUsers.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)MenuInicial.xaml">
@@ -44,5 +46,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="$(MSBuildThisFileDirectory)Imagenes\cancel.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Imagenes\logo_repair.jpg" />
   </ItemGroup>
 </Project>
