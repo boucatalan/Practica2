@@ -16,24 +16,33 @@
     <Compile Include="$(MSBuildThisFileDirectory)App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <Compile Include="$(MSBuildThisFileDirectory)InicioSesion.xaml.cs">
-      <DependentUpon>InicioSesion.xaml</DependentUpon>
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)MenuInicial.xaml.cs">
+      <DependentUpon>MenuInicial.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)Modelos\Incidencias.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Services\ServiceIncidences.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Services\ServiceUsers.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Modelos\Usuario.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PaginaIncidenciasMaster.xaml.cs">
+      <DependentUpon>PaginaIncidenciasMaster.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="$(MSBuildThisFileDirectory)InicioSesion.xaml">
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)MenuInicial.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="$(MSBuildThisFileDirectory)Imagenes\logo_repair.jpg" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)PaginaIncidenciasMaster.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="$(MSBuildThisFileDirectory)Imagenes\cancel.png" />
   </ItemGroup>
 </Project>

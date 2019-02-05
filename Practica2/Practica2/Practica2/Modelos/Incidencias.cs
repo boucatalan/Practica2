@@ -14,6 +14,11 @@ namespace Practica2.Modelos
         private DateTime data { get; set; }
         private Usuario usuario { get; set; }
 
+        public Incidencias()
+        {
+
+        }
+
         public Incidencias(int idInstancia, int codiEquip, int progres, String nomIncidencia, String desIncidencia, DateTime data, Usuario usuario)
         {
             this.idInstancia = idInstancia;
@@ -24,7 +29,5 @@ namespace Practica2.Modelos
             this.data = data;
             this.usuario = usuario;
         }
-
-
     }
 }
