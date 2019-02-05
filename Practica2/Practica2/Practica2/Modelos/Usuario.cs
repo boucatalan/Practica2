@@ -46,5 +46,9 @@ namespace Practica2.Modelos
             }
         }
 
+        public int getId()
+        {
+            return idUser;
+        }
     }
 }

@@ -29,5 +29,10 @@ namespace Practica2.Modelos
             this.data = data;
             this.usuario = usuario;
         }
+
+        public int getId ()
+        {
+            return idInstancia;
+        }
     }
 }
